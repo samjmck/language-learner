@@ -1,6 +1,6 @@
-# language-learning
+# language-learner
 
-[View live site](https://language-learning.samjmck.com)
+[View live site](https://language.samjmck.com)
 
 This is a small web app I made in roughly 4 hours as a challenge to myself. It is a simple flashcard app that has a list of the most popular words used for a given category and their translations in Dutch. The user can then test themselves on the words by clicking on the card to reveal the translation. Lastly, there is a translate field fixed to the bottom of the page that allows the user to type in a word and see its translation using [Azure AI Translator service](https://learn.microsoft.com/en-us/azure/ai-services/translator/).
 

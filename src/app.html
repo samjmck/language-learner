@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		%sveltekit.head%
+
+		<style>
+			/* inter-300 - latin */
+			@font-face {
+				font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+				font-family: 'Inter';
+				font-style: normal;
+				font-weight: 300;
+				src: url(%sveltekit.assets%/fonts/inter-v12-latin-300.woff2) format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+			}
+			/* inter-regular - latin */
+			@font-face {
+				font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+				font-family: 'Inter';
+				font-style: normal;
+				font-weight: 400;
+				src: url(%sveltekit.assets%/fonts/inter-v12-latin-regular.woff2) format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+			}
+			/* inter-500 - latin */
+			@font-face {
+				font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+				font-family: 'Inter';
+				font-style: normal;
+				font-weight: 500;
+				src: url(%sveltekit.assets%/fonts/inter-v12-latin-500.woff2) format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+			}
+			html {
+				font-family: 'Inter', sans-serif;
+				font-size: 1.6em;
+			}
+			@media screen and (max-width: 450px) {
+				html {
+					font-size: 1.1em;
+				}
+			}
+			a {
+				text-decoration: none;
+				color: inherit;
+				background: #fbfbfb;
+				padding: 1em;
+				display: block;
+				width: fit-content;
+				border-radius: 0.3em;
+				box-shadow: 0 0 2px 0 rgba(0,0,0,0.5);
+				border: 1px solid #ededed;
+				cursor: pointer;
+			}
+			button {
+				text-decoration: none;
+				color: inherit;
+				background: #fbfbfb;
+				padding: 1em;
+				display: block;
+				width: fit-content;
+				border-radius: 0.3em;
+				box-shadow: 0 0 2px 0 rgba(0,0,0,0.5);
+				border: 1px solid #ededed;
+				font-size: inherit;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
