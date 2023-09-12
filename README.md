@@ -15,7 +15,7 @@ Except for the Azure AI Translator service, this app is static and does not requ
 3. [What I learned](#what-i-learned)  
   3.1 [SvelteKit](#sveltekit)  
   3.2 [Azure AI Translator service](#azure-ai-translator-service)  
-  3.3 [ChatGPT](#chat-gpt)  
+  3.3 [ChatGPT](#chatgpt)  
 4. [Deployment](#deployment)
 5. [What made me think of making this app?](#what-made-me-think-of-making-this-app)
 
